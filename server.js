@@ -23,8 +23,8 @@ var https = require('https');
 
 // Security options - key and certificate
 var options = {
-	key: fs.readFileSync('/etc/letsencrypt/live/canvas.livelab.app/privkey.pem'),
-	cert: fs.readFileSync('/etc/letsencrypt/live/canvas.livelab.app/fullchain.pem')
+	key: fs.readFileSync(''),
+	cert: fs.readFileSync('')
   };
 
 // We pass in the Express object and the options object

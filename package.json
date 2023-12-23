@@ -1,16 +1,25 @@
 {
-  "name": "canvas",
+  "name": "p5-drawing-socket",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Shawn Van Every",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
     "nedb": "^1.8.0",
     "socket.io": "^4.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanevery/p5-drawing-socket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanevery/p5-drawing-socket/issues"
+  },
+  "homepage": "https://github.com/vanevery/p5-drawing-socket#readme",
+  "description": ""
 }
